@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/signin.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sign-In</title>
+</head>
+<body>
+    <section id="header">
+        <a href="#" class="logo">GalaxyClothes  <br><h5 class="trust">where you trust!</h5></a>
+
+        <div class="">
+            <ul id="navbar">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/product.html">Products</a></li>
+               
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/Signup.html" class="active">Login</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times">
+
+                </i></a>
+                
+            </ul>
+        </div>
+        <div class="">
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-basket-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </div>
+    </section>
+
+    <div class="wrapper">
+        <h1>Sign In</h1>
+            <form onsubmit="login(event)">
+                
+                
+                 <input type="text"  placeholder="Email" id="email">
+
+                 <input type="password" name="password" id="password" placeholder="Password">
+                 <br/>  
+                 
+                
+            <div class="terms">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">I agree to these <a href="#">Terms & Conditions</a></label>
+            </div>
+            <button  id="signupinp">Sign In</button>
+            <div class="member">
+                Not A Memeber?<a href="/Signup.html">SignUp Here!</a>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="/login.js" type="module"></script>
+<script src="app.js"></script>
+</html>
